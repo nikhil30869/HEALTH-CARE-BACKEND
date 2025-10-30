@@ -15,7 +15,8 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/oxygen")
-@CrossOrigin("*")
+@CrossOrigin(origins = "https://whimsical-choux-733d4b.netlify.app")
+
 public class OxygenController {
 
     @Autowired

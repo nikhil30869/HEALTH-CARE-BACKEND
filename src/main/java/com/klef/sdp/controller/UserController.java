@@ -12,7 +12,8 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin("*")
+@CrossOrigin(origins = "https://whimsical-choux-733d4b.netlify.app")
+
 public class UserController {
 
     @Autowired

@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin("*")
+@CrossOrigin(origins = "https://whimsical-choux-733d4b.netlify.app")
+
 public class AuthController {
 
     @Autowired
