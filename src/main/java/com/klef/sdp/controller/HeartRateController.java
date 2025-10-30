@@ -15,7 +15,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/heart-rate")
-@CrossOrigin(origins = "https://whimsical-choux-733d4b.netlify.app")
+@CrossOrigin(origins = "https://nexuswave-healthcare.netlify.app/")
 
 public class HeartRateController {
 
